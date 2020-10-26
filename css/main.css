@@ -25,4 +25,85 @@ h3{
 .cookie{
     font-family:'Cookie', cursive;
 }
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
 
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(../img/img4.jpg);
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+    height: 100vh;
+    padding:20px;
+}
+header nav.redes-sociales a{
+    color: #fff;
+    font-size: 2em;
+    margin-right: 20px;
+}
+header div.encabezado p{
+   justify-content: space-around;
+   /* justify-content: space-between; */
+   /* justify-content: space-evenly; */
+}
+header div.encabezado h1{
+    font-size:120px;
+}
+header div.encabezado p:last-child{
+    font-size:250%;
+}
+
+
+.barra{
+    justify-content: space-between;
+    padding:15px 20px;
+    background-color: rgb(55, 100, 134);
+    color: #fff;
+}
+.barra .menu-movil{
+    width:35px;
+    display: none;
+}
+.menu-movil span{
+    display: block;
+    background-color: gray;
+    padding:2px;
+    margin:5px 0;
+}
+.logo{
+    font-weight: bold;
+    font-size:30px;
+}
+nav.menu-principal ul li{
+    margin:0 5px;
+    padding:5px;
+}
+nav.menu-principal ul li a{
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+main article.que-es{
+    padding:30px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+article.que-es span{
+    display:inline-block;
+    width:40px;
+    padding:2px;
+    margin:10px 0;
+    background-color: rgb(55, 100, 134);
+    text-align: center;
+}
+main article.que-es p{
+    padding:0 40px;
+}
